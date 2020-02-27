@@ -1,0 +1,34 @@
+[[redirects]]
+    from = "/assets/*"
+    to = "/assets/:splat"
+    status = 301
+    force = false
+
+[[redirects]]
+    from = "/workbox-assets/*"
+    to = "/workbox-assets/:splat"
+    status = 301
+    force = false
+
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
+    force = false
+
+
+[[headers]]
+    for = "/assets/*"
+    [headers.values]
+        Cache-Control = "public, max-age=2678400"
+
+# https://www.netlify.com/blog/2018/09/21/international-service-worker-caching-awareness-day/
+[[headers]]
+    for = "/service-worker.js"
+    [headers.values]
+        cache-control = "max-age=0,no-cache,no-store,must-revalidate"
+
+[[headers]]
+    for = "/index.html"
+    [headers.values]
+        cache-control = "max-age=0,no-cache,no-store,must-revalidate"
