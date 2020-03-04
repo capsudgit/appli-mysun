@@ -225,12 +225,12 @@
                 </div>
                 <div class="stockage-wrapper">
                     <h5>
-                        Système de stockage
+                        Optimisateur
                     </h5>
                     <label @click="hasBattery = !hasBattery">
                         <BaseSwitch :active="hasBattery" />
                         <span>
-                            Ajouter un système de stockage
+                            Ajouter un optimisateur
                         </span>
                     </label>
                 </div>
