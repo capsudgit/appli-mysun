@@ -41,7 +41,7 @@
         data() {
             return {
                 installedPower: 9,
-                hasBattery: true,
+                hasBattery: false,
                 autoConsumptionRate: 40,
                 chartOptions: {
                     states: {
