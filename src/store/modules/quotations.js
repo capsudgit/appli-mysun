@@ -38,7 +38,7 @@ function draftToQuotation(draft, meId) {
                 self_consumption_rate: draft.autoConsumptionRate,
                 self_production: draft.autoConsumption,
                 sell_production: draft.soldProduction,
-                // resale_production: draft.soldProduction,
+                resale_production: draft.soldProduction,
                 resale_production: draft.soldSurplus,
                 chart_surplus: draft.chartSurplus,
             },
