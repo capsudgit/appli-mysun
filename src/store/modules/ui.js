@@ -13,7 +13,7 @@ export default {
         options: {
             prix_kwh: '0.16',
             loyer_mensuel_20ans: { '3kwh': '59', '6kwh': '86', '9kwh': '129' },
-            loyer_mensuel_20ans_with_battery: { '3kwh': '128', '6kwh': '175', '9kwh': '208' },
+            loyer_mensuel_20ans_with_battery: { '3kwh': '87', '6kwh': '118', '9kwh': '153' },
             loyer_mensuel_30ans: { '3kwh': '76', '6kwh': '107', '9kwh': '159' },
             loyer_mensuel_30ans_with_battery: { '3kwh': '103', '6kwh': '142', '9kwh': '170' },
             prime_autoconsommation: { '3kwh': '240', '6kwh': '360', '9kwt': '540' },
